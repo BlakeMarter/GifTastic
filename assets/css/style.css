@@ -14,3 +14,25 @@ button {
     background-color: white;
     color: black;
 }
+
+@-ms-viewport{
+    width: device-width;
+  }
+  @media (min-width: 576px) { 
+           /* .col-sm-2 {
+            margin-right: 20px;
+            position: fixed;
+           }
+        
+           .gifArea {
+            margin-top: 30%;
+           } */
+        
+         }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 768px) {  }
+  

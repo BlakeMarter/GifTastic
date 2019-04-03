@@ -21,7 +21,7 @@ $(document).ready(function (event) {
             for (var i = 0; i < limits; i++) {
 
                 var holder = $("<div>");
-                holder.addClass("holders");
+                holder.addClass("holders px-3");
                 var imgStill = $("<img>").attr({
                     "src": response.data[i].images.fixed_height_still.url,
                     "data-still": response.data[i].images.fixed_height_still.url,
@@ -50,9 +50,9 @@ $(document).ready(function (event) {
 
         for (let i = 0; i < loadedGifs.length; i++) {
 
-            var buttons = $("<button class='btn btn-outline-light'>");
+            var buttons = $("<button>");
             buttons.text(loadedGifs[i]);
-            buttons.addClass("tabs");
+            buttons.addClass("tabs btn btn-outline-light");
             buttons.attr("data-name", loadedGifs[i]);
             $(".group").append(buttons);
 
