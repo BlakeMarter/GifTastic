@@ -4,8 +4,12 @@ background-color: rgb(85, 85, 107);
 .jumbotron {
     background-color: rgb(190, 190, 204);
     font-family: 'Londrina Sketch', cursive;
-
 }
+.container {
+    margin-right: 15%;
+}    
+
+
 label {
     color: white;
 }
