@@ -1,0 +1,16 @@
+.background {
+background-color: rgb(85, 85, 107);
+}
+.jumbotron {
+    background-color: rgb(190, 190, 204);
+    font-family: 'Londrina Sketch', cursive;
+
+}
+label {
+    color: white;
+}
+button {
+    margin: 8px;
+    background-color: white;
+    color: black;
+}
